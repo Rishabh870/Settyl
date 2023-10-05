@@ -1,0 +1,72 @@
+.absolute-calendar {
+  position: absolute;
+  min-width: fit-content;
+  left: 0;
+  top: 80px;
+  margin: 0 10px;
+  outline: none !important;
+  z-index: 1;
+}
+
+/* Custom CSS to add bottom border for "sm" breakpoint */
+@media (max-width: 576px) {
+  .custom-border {
+    border-bottom: 1px solid #000; /* Add your desired border style here */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+}
+
+.custom-modal-width {
+  max-width: 100%; /* Adjust the width as needed */
+  width: 900px;
+}
+
+.custom-datepicker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.custom-datepicker-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  padding: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.react-datepicker__time-container {
+}
+
+.react-datepicker__time-box {
+  width: 70px;
+}
+
+.react-datepicker__time-list-item {
+  padding: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.react-datepicker__time-list-item--selected {
+  background-color: #007bff;
+  color: white;
+}
